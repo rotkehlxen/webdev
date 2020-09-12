@@ -1,78 +1,74 @@
 * {
   box-sizing: border-box;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Comic Sans MS", cursive, sans-serif;
 }
+
+body {
+  margin: 10px;
+  padding: 0;
+}
+
 h1 {
   margin-bottom: 15px;
   text-align: center;
 }
 
-p {
-  width: 90%;
-  font-family: Helvetica;
-  color: black;
-  margin-left: auto;
-  margin-right: auto;
-}
-
 /* Add some padding to the text in each container, so it does not overlap
 with the subtitle */
-p.field-text{
-  padding-top: 10px
+p {
+  padding-top: 30px;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+}
+
+div.section{
+  margin-left:10px;
+  margin-right: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 3px solid black;
+  position: relative;
+  background-color: #9C9C9C;
 }
 
 /* Style the subtitles of the containers*/
-#sushi{
+h2 {
+border: 3px solid black;
+position: absolute;
+top: 0px;
+right: 0px;
+text-align: center;
+width: 150px;
+margin-top: 0;
+}
+
+h2.sushi{
 background-color: #EFD67E;
 color: black;
-border: 1px solid black;
-position: absolute;
-top: 0px;
-right: 0px;
-text-align: center;
-width: 100px;
-margin-top: 0;
 }
 
-#beef{
+h2.beef{
 background-color: #A52A2A;
 color: white;
-border: 1px solid black;
-position: absolute;
-top: 0px;
-right: 0px;
-text-align: center;
-width: 100px;
-margin-top: 0;
 }
 
-#chicken{
+h2.chicken{
 background-color: #DC9EA9;
 color: black;
-border: 1px solid black;
-position: absolute;
-top: 0px;
-right: 0px;
-text-align: center; 
-width: 100px;
-margin-top: 0;
 }
 
 /* Simple Responsive Framework. */
 .row {
   width: 100%;
-  margin: 0 -20px;
 }
 
 /********** Large devices only **********/
 @media (min-width: 992px) {
   .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, 
   .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
-    float: left;
-    background-color: #9C9C9C;
-    border: 1px solid black;
-    position: relative;
-    padding: 0 20px;
+    float: left; 
   }
   .col-lg-1 {
     width: 8.33%;
@@ -117,10 +113,6 @@ margin-top: 0;
   .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, 
   .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
     float: left;
-    background-color: #9C9C9C;
-    border: 1px solid black;
-    position: relative;
-    padding: 0 20px;
   }
   .col-md-1 {
     width: 8.33%;
@@ -166,9 +158,6 @@ margin-top: 0;
   .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12 {
     float: left;
     background-color: #9C9C9C;
-    border: 1px solid black;
-    position: relative;
-    padding: 0 20px;
   }
   .col-xs-1 {
     width: 8.33%;
