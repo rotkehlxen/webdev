@@ -1,27 +1,37 @@
 * {
   box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
 }
 h1 {
   margin-bottom: 15px;
   text-align: center;
-  font-family: Arial, Helvetica, sans-serif
 }
 
 p {
   width: 90%;
   font-family: Helvetica;
   color: black;
+  margin-left: auto;
+  margin-right: auto;
 }
 
+/* Add some padding to the text in each container, so it does not overlap
+with the subtitle */
+p.field-text{
+  padding-top: 10px
+}
+
+/* Style the subtitles of the containers*/
 #sushi{
 background-color: #EFD67E;
 color: black;
 border: 1px solid black;
 position: absolute;
-top: 0px
+top: 0px;
 right: 0px;
 text-align: center;
 width: 100px;
+margin-top: 0;
 }
 
 #beef{
@@ -33,6 +43,7 @@ top: 0px;
 right: 0px;
 text-align: center;
 width: 100px;
+margin-top: 0;
 }
 
 #chicken{
@@ -44,11 +55,13 @@ top: 0px;
 right: 0px;
 text-align: center; 
 width: 100px;
+margin-top: 0;
 }
 
 /* Simple Responsive Framework. */
 .row {
   width: 100%;
+  margin: 0 -20px;
 }
 
 /********** Large devices only **********/
@@ -59,6 +72,7 @@ width: 100px;
     background-color: #9C9C9C;
     border: 1px solid black;
     position: relative;
+    padding: 0 20px;
   }
   .col-lg-1 {
     width: 8.33%;
@@ -106,6 +120,7 @@ width: 100px;
     background-color: #9C9C9C;
     border: 1px solid black;
     position: relative;
+    padding: 0 20px;
   }
   .col-md-1 {
     width: 8.33%;
@@ -153,6 +168,7 @@ width: 100px;
     background-color: #9C9C9C;
     border: 1px solid black;
     position: relative;
+    padding: 0 20px;
   }
   .col-xs-1 {
     width: 8.33%;
