@@ -1,0 +1,54 @@
+* {
+  box-sizing: border-box;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+body {
+  margin-left: 5px;
+  margin-right: 5px;
+  padding: 0;
+}
+
+.row {
+	width: 100%;
+}
+
+p{
+	border: black solid 1px;
+    background-color: #C9C9C9;
+    margin: 5px;
+}
+
+@media (min-width: 992px){
+/* for big screens use 3 columns (span 4 units) */
+.col-lg-4{
+	float: left;
+	width: 33.33%;
+}
+
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+	/*medium sized screens: max 2 columns*/
+
+.col-md-6, .col-md-12{
+	float:left;
+}
+
+.col-md-6{
+	width: 50%;
+}
+
+.col-md-12{
+	width: 100%;
+}
+}
+
+@media (max-width: 767px) {
+/* small devices like mobile phones etc. */
+
+.col-xs-12{
+	float: left;
+	width: 100%;
+}
+}

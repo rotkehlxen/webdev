@@ -35,7 +35,8 @@ div.section{
 
 /* Style the subtitles of the containers*/
 h2 {
-border: 3px solid black;
+border-left: 3px black solid;
+border-bottom: 3px black solid;
 position: absolute;
 top: 0px;
 right: 0px;
