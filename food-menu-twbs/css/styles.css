@@ -1,0 +1,16 @@
+* {
+	box-sizing: border-box;
+	font-family: 'Lobster', cursive;
+}
+
+#main-content h3 {
+	text-align: center;
+}
+
+#main {
+	background-color: #9C9C9C;
+}
+
+.text-center{
+	margin-bottom: 30px;
+}
