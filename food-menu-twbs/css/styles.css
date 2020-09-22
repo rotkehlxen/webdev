@@ -3,8 +3,17 @@
 	font-family: 'Lobster', cursive;
 }
 
+#restaurant-name {
+	font-family: "Lobster", cursive;
+}
+
 #main-content h3 {
 	text-align: center;
+}
+
+#main-content {
+	margin-left: 15px;
+	margin-right: 15px;
 }
 
 #main {
@@ -13,4 +22,22 @@
 
 .text-center{
 	margin-bottom: 30px;
+}
+
+#sample-text {
+	/*height: 2000px;*/
+}
+
+#nav-list {
+	text-align: center;
+	background-color: #F6C2E2;
+}
+
+@media (max-width: 767px){
+
+#main-content {
+	margin-left: 50px;
+	margin-right: 50px;
+}
+
 }
